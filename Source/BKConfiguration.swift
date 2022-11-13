@@ -33,7 +33,7 @@ public class BKConfiguration {
     // MARK: Properties
 
     /// The UUID for the service used to send data. This should be unique to your applications.
-    public let dataServiceUUID: CBUUID
+    public var dataServiceUUID: CBUUID
 
     /// The UUID for the characteristic used to send data. This should be unique to your application.
     public var dataServiceCharacteristicUUID: CBUUID
